@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AT_Rps>
+            <version>1.0.2</version>
+        </AT_Rps>
+    </modules>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <AT_Rps>
+                    <files>
+                        <default>AT_Rps.csv</default>
+                    </files>
+                </AT_Rps>
+            </modules>
+        </translate>
+    </adminhtml>
+
+    <global>
+        <models>
+            <rps>
+                <class>AT_Rps_Model</class>
+            </rps>
+            <shipping>
+                <rewrite>
+                    <rate_result>AT_Rps_Model_Rewrite_Shipping_Rate_Result</rate_result>
+                </rewrite>
+            </shipping>
+        </models>
+
+        <blocks>
+            <rps>
+                <class>AT_Rps_Block</class>
+            </rps>
+
+            <checkout>
+                <rewrite>
+                    <onepage_payment_methods>AT_Rps_Block_Rewrite_Onepage_Payment_Methods</onepage_payment_methods>
+                </rewrite>
+            </checkout>
+
+        </blocks>
+
+        <helpers>
+            <rps>
+                <class>AT_Rps_Helper</class>
+            </rps>
+        </helpers>
+    </global>
+</config>

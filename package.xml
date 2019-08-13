@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>BrainActs_Rps</name>
+    <version>1.0.2</version>
+    <stability>stable</stability>
+    <license>osm</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>brainacts_rps</summary>
+    <description>brainacts_rps</description>
+    <notes>First Stable Release</notes>
+    <authors><author><name>Aleksandr Tykhnov</name><user>nakilon</user><email>tihonov.sania@gmail.com</email></author></authors>
+    <date>2016-10-25</date>
+    <time>10:09:54</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="AT_Rps.xml" hash="182076f6572a8398f60bf737e980f279"/></dir></target><target name="magelocal"><dir name="AT"><dir name="Rps"><dir name="Block"><dir name="Rewrite"><dir name="Onepage"><dir name="Payment"><file name="Methods.php" hash="bf84ccfaf1f79984f85e299bc53126b8"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="f041b7bf76992ce281fbd1429b3ec8c2"/></dir><dir name="Model"><dir name="Rewrite"><dir name="Shipping"><dir name="Rate"><file name="Result.php" hash="c673f5d97888b89a76a155698dea8229"/></dir></dir></dir><dir name="System"><dir name="Config"><dir name="Source"><dir name="Payment"><file name="Methods.php" hash="e4fa39e3f4dff8ed089f3ac021a18264"/></dir><dir name="Shipping"><file name="Methods.php" hash="3b5ba5bf87e83268ff59c4b18dd3bf3e"/></dir></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="d646be01e8a4c58035823eb9a431d69d"/><file name="config.xml" hash="8c567755cb2ca7519fd76d88af9767c0"/><file name="system.xml" hash="e835cde86b3f25e7e6d7ed1029143bee"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.4</max></php></required></dependencies>
+</package>

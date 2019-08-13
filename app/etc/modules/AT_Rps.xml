@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AT_Rps>
+            <active>true</active>
+            <codePool>local</codePool>
+        </AT_Rps>
+    </modules>
+</config>
