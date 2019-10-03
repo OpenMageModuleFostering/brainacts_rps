@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/BrainActs_Rps",
+    "name": "OpenMageModuleFostering\/BrainActs_Rps",
     "type": "magento-module",
     "license": "osm",
     "homepage": "",
     "description": "brainacts_rps",
     "authors": [
-    {
-        "name": "Aleksandr Tykhnov",
-        "email": "tihonov.sania@gmail.com"
-    }
-],
+        {
+            "name": "Aleksandr Tykhnov",
+            "email": "tihonov.sania@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
